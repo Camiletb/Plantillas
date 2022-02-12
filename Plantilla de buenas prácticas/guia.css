@@ -1,0 +1,13 @@
+*{
+    box-sizing: content-box;
+}
+
+body{
+    margin: 0; /*Para quitar el por defecto*/
+}
+
+.div_bueno{ /*Por especificidad, se recomienda trabajar con clases si es posible*/
+    /*Para centrar un elemento*/
+    margin-left: auto;
+    margin-right: auto;
+}
